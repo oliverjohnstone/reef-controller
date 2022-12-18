@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd /cross
+source ~/.profile
+cmake -D CMAKE_CXX_COMPILER=$CMAKE_CXX_COMPILER .
+cmake --build .

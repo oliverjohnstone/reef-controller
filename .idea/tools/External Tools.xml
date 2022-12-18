@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="cross-compile-pi" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="docker" />
+      <option name="PARAMETERS" value="run -v $ProjectFileDir$:/cross pi-cross /cross/compile" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

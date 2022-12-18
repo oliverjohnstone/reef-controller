@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="069059b5-4719-4833-8e25-d689b21701e5" name="cross-compile" defaultType="TOOL">
+      <configuration id="6a392209-0dde-43e0-9f07-1c7a66592ee0" name="cross-compile">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_cross-compile-pi" />
+        </build>
+        <clean type="TOOL">
+          <tool actionId="Tool_External Tools_cross-compile-pi" />
+        </clean>
+      </configuration>
+    </target>
+  </component>
+</project>
